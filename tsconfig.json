@@ -1,0 +1,25 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "nodenext",
+    "target": "esnext",
+
+    // Other Outputs
+    //"sourceMap": true,
+    //"declaration": true,
+    //"declarationMap": true,
+
+    // Recommended Options
+    "strict": true,
+
+    // Uncommenting any of those fixes the issue. `"types": []` Is the default in TypeScript 6.0, but is likely not set on older projects
+    //"types": [],
+    //"skipLibCheck": true,
+  }
+}
